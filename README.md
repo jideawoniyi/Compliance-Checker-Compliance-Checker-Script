@@ -1,16 +1,16 @@
 # Compliance Checker Script
 
 ## Overview
-This script assesses systems against specific compliance standards, checks system configurations, generates compliance reports, and suggests remediation for non-compliant findings.
+This script performs a comprehensive compliance check against predefined benchmarks, such as required software packages, service statuses, and system configurations.
 
 ## Requirements
-- Appropriate permissions to check system configurations.
+- Appropriate permissions to check system configurations and software status.
 
 ## Usage
-1. Define compliance standards within the script.
+1. Define compliance benchmarks within the script (e.g., required packages, services).
 2. Run the script: `./compliance_checker.sh`
-3. Review the output for compliance status.
+3. The script generates a detailed compliance report in an output file.
 
 ## Customization
-- Modify the script to include different compliance benchmarks.
-- Extend the script to generate detailed reports.
+- Modify the script to include various compliance benchmarks and standards.
+- Extend the script to handle more complex compliance checks and report formatting.
